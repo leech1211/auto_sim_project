@@ -1,0 +1,50 @@
+# ── Unity 생성 폴더 ──────────────────────────
+Library/
+Temp/
+Logs/
+obj/
+Build/
+Builds/
+
+# ── Unity 솔루션/프로젝트 파일 ───────────────
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# ── Unity 캐시/메타 예외 ──────────────────────
+# .meta 파일은 Assets 안에서만 추적
+*.meta
+!Assets/**/*.meta
+
+# ── Packages (Package Manager 캐시) ──────────
+Packages/
+
+# ── ProjectSettings (선택적으로 추적 가능) ───
+# 추적하려면 이 줄을 삭제
+ProjectSettings/
+
+# ── UserSettings ─────────────────────────────
+UserSettings/
+
+# ── Python 가상환경 ───────────────────────────
+Assets/PythonClient/venv/
+
+# ── Python 캐시 ──────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── IDE 설정 ─────────────────────────────────
+.idea/
+.vscode/
+
+# ── OS 파일 ──────────────────────────────────
+.DS_Store
+Thumbs.db
